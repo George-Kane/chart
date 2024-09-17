@@ -14,7 +14,6 @@ import {
 } from 'chart.js';
 
 import { downsampleData } from '@/utils/downsample';
-import { errorMarginPlugin } from '@/utils/errorMarginPlugin';
 
 ChartJS.register(
 	CategoryScale,
